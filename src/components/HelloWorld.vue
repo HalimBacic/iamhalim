@@ -1,14 +1,16 @@
 <template>
-  <div class="hello">
-  PAGE UNDER CONSTRUCTION
-  </div>
+  <NavigationComponent></NavigationComponent>
 </template>
 
 <script>
+import NavigationComponent from '../components/NavigationComponent.vue';
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  components:{
+    NavigationComponent
   }
 }
 </script>
