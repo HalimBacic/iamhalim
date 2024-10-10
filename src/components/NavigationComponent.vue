@@ -31,7 +31,7 @@ export default {
     OpenGitHub()
     {window.open("https://github.com/HalimBacic", "_blank");},
     OpenLinkedId()
-    {window.open("www.linkedin.com/in/halimbacic", "_blank");}
+    {window.open("https://www.linkedin.com/in/halimbacic", "_blank");}
   }
 };
 </script>
