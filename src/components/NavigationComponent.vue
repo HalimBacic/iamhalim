@@ -1,7 +1,7 @@
 <template>
   <div class="navigation">
     <div class="leftSide">
-      <div class="myBtn">Bio</div>
+      <div class="myBtn">Biography</div>
       <div class="myBtn">Projects</div>
       <div class="myBtn">TechStack</div>
     </div>
