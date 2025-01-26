@@ -20,7 +20,7 @@
     background-size:cover;
     position: relative;
     top:10vh;
-    left:35vw;
+    left:10vw;
     z-index: -10;
 }
 </style>

@@ -14,8 +14,8 @@ export default {
 <style scoped>
 .container{
     position: absolute;
-    top:48vh;
-    left:25vh;
+    top:42vh;
+    left:20vh;
     border-bottom: #D62246;
 }
 .text1 {
