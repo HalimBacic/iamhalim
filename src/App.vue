@@ -7,6 +7,9 @@
       </div>
       <InfoText></InfoText>
     </div>
+    <div class="cv" id="cvId">
+      <CvComponent></CvComponent>
+    </div>
   </div>
 </template>
 
@@ -14,13 +17,15 @@
 import InfoText from "./components/InfoText.vue";
 import GraphComponent from "./components/Graph.vue";
 import NavigationComponent from './components/NavigationComponent.vue';
+import CvComponent from "./components/CvComponent.vue";
 
 export default {
   name: "App",
   components: {
     InfoText,
     GraphComponent,
-    NavigationComponent
+    NavigationComponent,
+    CvComponent
   },
 };
 </script>
@@ -36,14 +41,21 @@ body, #app {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 100vh;
+}
+
+.cv
+{
+  height: 100%;
 }
 
 .containerTwo
 {
   display: flex;
+  height: 100vh;
 }
 
-.section
+.ContainerOne
 {
   height:100vh;
 }
